@@ -1,0 +1,34 @@
+﻿  Accuracy.cpp
+  LoadUserStatsCommand.cpp
+  Command.cpp
+  DatabaseManager.cpp
+  GameSelectForm.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  History.cpp
+  Knight.cpp
+  LoginForm.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  MainForm.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  PlayReactGame.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\playreactgame.cpp(10): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  PlaySpeedGame.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\playspeedgame.cpp(13): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  PlayTechGame.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\playtechgame.cpp(8): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Popup.cpp
+  ReactGameForm.cpp
+  SignUpForm.cpp
+  SpeedGameForm.cpp
+  TechGameForm.cpp
+  UserStatForm.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(50): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\userstatform.h(51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  WPM.cpp
+j:\spring2019\intermediatese\repos39\deployment\teamsimplicity\dougtypingguild\wpm.cpp(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  DougTypingGuild.vcxproj -> J:\Spring2019\IntermediateSE\repos39\Deployment\TeamSimplicity\DougTypingGuild\x64\Debug\DougTypingGuild.exe

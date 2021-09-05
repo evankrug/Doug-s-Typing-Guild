@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{62BF6643-ACD8-4AC8-9142-2FB67D5A08C1}</ProjectGuid>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>DougTypingGuild</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Accuracy.cpp" />
+    <ClCompile Include="LoadUserStatsCommand.cpp" />
+    <ClCompile Include="Command.cpp" />
+    <ClCompile Include="DatabaseManager.cpp" />
+    <ClCompile Include="GameSelectForm.cpp" />
+    <ClCompile Include="History.cpp" />
+    <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="LoginForm.cpp" />
+    <ClCompile Include="MainForm.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="PlayReactGame.cpp" />
+    <ClCompile Include="PlaySpeedGame.cpp" />
+    <ClCompile Include="PlayTechGame.cpp" />
+    <ClCompile Include="Popup.cpp" />
+    <ClCompile Include="ReactGameForm.cpp" />
+    <ClCompile Include="SignUpForm.cpp" />
+    <ClCompile Include="SpeedGameForm.cpp" />
+    <ClCompile Include="TechGameForm.cpp" />
+    <ClCompile Include="UserStatForm.cpp" />
+    <ClCompile Include="WPM.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Accuracy.h" />
+    <ClInclude Include="LoadUserStatsCommand.h" />
+    <ClInclude Include="Command.h" />
+    <ClInclude Include="DatabaseManager.h" />
+    <ClInclude Include="GameSelectForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="History.h" />
+    <ClInclude Include="Knight.h" />
+    <ClInclude Include="LoginForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MainForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="PlayReactGame.h" />
+    <ClInclude Include="PlaySpeedGame.h" />
+    <ClInclude Include="PlayTechGame.h" />
+    <ClInclude Include="Popup.h" />
+    <ClInclude Include="ReactGameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SignUpForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="SpeedGameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="TechGameForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="UserStatForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WPM.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GameSelectForm.resx">
+      <DependentUpon>GameSelectForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReactGameForm.resx">
+      <DependentUpon>ReactGameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpForm.resx">
+      <DependentUpon>SignUpForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpeedGameForm.resx">
+      <DependentUpon>SpeedGameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechGameForm.resx">
+      <DependentUpon>TechGameForm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserStatForm.resx">
+      <DependentUpon>UserStatForm.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\redobtn.png" />
+    <Image Include="..\..\..\..\undobtn.png" />
+    <Image Include="BullsEye(1).jpg" />
+    <Image Include="BullsEye1(1).jpg" />
+    <Image Include="BullsEye2(1).jpg" />
+    <Image Include="BullsEye3(1).jpg" />
+    <Image Include="BullsEye4(1).jpg" />
+    <Image Include="BullsEye5(1).jpg" />
+    <Image Include="Doug_Bow_and_arrow (2).png" />
+    <Image Include="doug_solair.jpg" />
+    <Image Include="doug_solair_Text.jpg" />
+    <Image Include="Keyboard Bitmaps\Keyboard001.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard002.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard003.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard004.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard005.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard006.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard007.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard008.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard009.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard010.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard011.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard012.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard013.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard014.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard015.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard016.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard017.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard018.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard019.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard020.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard021.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard022.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard023.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard024.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard025.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard026.bmp" />
+    <Image Include="Keyboard Bitmaps\Keyboard027.bmp" />
+    <Image Include="Resized keyboard1.jpg" />
+    <Image Include="Resized keyboard10.jpg" />
+    <Image Include="Resized keyboard11.jpg" />
+    <Image Include="Resized keyboard12.jpg" />
+    <Image Include="Resized keyboard13.jpg" />
+    <Image Include="Resized keyboard14.jpg" />
+    <Image Include="Resized keyboard15.jpg" />
+    <Image Include="Resized keyboard16.jpg" />
+    <Image Include="Resized keyboard17.jpg" />
+    <Image Include="Resized keyboard18.jpg" />
+    <Image Include="Resized keyboard19.jpg" />
+    <Image Include="Resized keyboard2.jpg" />
+    <Image Include="Resized keyboard20.jpg" />
+    <Image Include="Resized keyboard21.jpg" />
+    <Image Include="Resized keyboard22.jpg" />
+    <Image Include="Resized keyboard23.jpg" />
+    <Image Include="Resized keyboard24.jpg" />
+    <Image Include="Resized keyboard25.jpg" />
+    <Image Include="Resized keyboard26.jpg" />
+    <Image Include="Resized keyboard27.jpg" />
+    <Image Include="Resized keyboard3.jpg" />
+    <Image Include="Resized keyboard4.jpg" />
+    <Image Include="Resized keyboard5.jpg" />
+    <Image Include="Resized keyboard6.jpg" />
+    <Image Include="Resized keyboard7.jpg" />
+    <Image Include="Resized keyboard8.jpg" />
+    <Image Include="Resized keyboard9.jpg" />
+    <Image Include="solar_horse.jpg" />
+    <Image Include="VisualKnight.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CharactersDatabase.txt" />
+    <Text Include="temp.txt" />
+    <Text Include="UsersDatabase.txt" />
+    <Text Include="WordsDatabase.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

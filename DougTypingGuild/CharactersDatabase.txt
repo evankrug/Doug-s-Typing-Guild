@@ -1,0 +1,24 @@
+1 f j
+2 r u
+3 v n
+4 d k
+5 e i
+6 m c
+7 l s
+8 o w
+9 p x
+10 a A F J R U V N D K E I M C L S O W P X
+11 q Q
+12 z Z
+13 t T y Y
+14 g G h H
+15 b B
+16 1 2 3
+17 4 5 6
+18 7 8 9 0
+19 ! @ # , . / ;
+20 $ % ^ ' [ ] \
+21 & * ( ) - =
+22 < > ? :
+23 " { }
+24 | _ +

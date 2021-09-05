@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SignUpForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSelectForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TechGameForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SpeedGameForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReactGameForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Accuracy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayTechGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySpeedGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DatabaseManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WPM.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayReactGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Popup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UserStatForm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Command.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="History.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadUserStatsCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SignUpForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSelectForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TechGameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedGameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReactGameForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Accuracy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayTechGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySpeedGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DatabaseManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WPM.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayReactGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Popup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UserStatForm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="History.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadUserStatsCommand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="MainForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameSelectForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignUpForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReactGameForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpeedGameForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TechGameForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserStatForm.resx">
+      <Filter>Resource Files</Filter>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Keyboard Bitmaps\Keyboard001.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard015.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard016.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard017.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard018.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard019.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard020.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard021.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard022.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard023.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard024.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard025.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard026.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Keyboard Bitmaps\Keyboard027.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard10.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard11.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard12.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard13.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard14.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard15.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard16.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard17.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard18.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard19.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard20.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard21.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard22.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard23.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard24.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard25.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard26.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard27.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard2.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard3.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard4.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard6.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard7.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard8.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard9.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard5.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resized keyboard1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="doug_solair.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="doug_solair_Text.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="solar_horse.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualKnight.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BullsEye1(1).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BullsEye2(1).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BullsEye3(1).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BullsEye4(1).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BullsEye5(1).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Doug_Bow_and_arrow (2).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="BullsEye(1).jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\undobtn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\redobtn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CharactersDatabase.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="UsersDatabase.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="WordsDatabase.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="temp.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
